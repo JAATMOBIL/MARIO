@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
+int main()
 {
     char input[100];
     int n = 0;
@@ -34,4 +34,5 @@ int main(void)
         printf("\n");
     }
     return 0;
+
 }
