@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main(void)
 {
     char input[100];
     int n = 0;
@@ -30,9 +30,12 @@ int main()
         {
             printf("#");
         }
+        printf("  ");
+        
+        for (int j=0;j<r;j++)
+            printf("#");
 
         printf("\n");
     }
     return 0;
-
 }
